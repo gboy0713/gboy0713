@@ -5,21 +5,7 @@
   <div class="container">
     <div class="row">
       
-      <!-- 좌측 사이드바 메뉴 (Left Menu) -->
-      <aside class="col-lg-3 mb-4">
-        <div class="card shadow-sm">
-          <div class="card-header bg-dark text-white fw-bold">
-            카테고리 메뉴
-          </div>
-          <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">홈</a>
-            <a href="#" class="list-group-item list-group-item-action">PHP 기초 & 심화</a>
-            <a href="#" class="list-group-item list-group-item-action">Laravel / CodeIgniter</a>
-            <a href="#" class="list-group-item list-group-item-action">유지보수 & 리팩토링</a>
-            <a href="#" class="list-group-item list-group-item-action">About Me</a>
-          </div>
-        </div>
-      </aside>
+      {% include category.html %}
 
       <!-- 우측 메인 콘텐츠 (Blog Posts) -->
       <main class="col-lg-9">
